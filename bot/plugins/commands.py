@@ -122,8 +122,8 @@ async def start(bot, update):
         InlineKeyboardButton('👨‍💼Creater', url=f'https://t.me/{MRK_YT_MASTER}'),
         InlineKeyboardButton('Help 🤔', callback_data="help")
     ],[
-        InlineKeyboardButton('🗣️Group', url=f'{efcinema}'),
-        InlineKeyboardButton('Channel🔊', url=f'{efchannel2}')
+        InlineKeyboardButton('🗣️Group', url=f'@{efcinema}'),
+        InlineKeyboardButton('Channel🔊', url=f'@{efchannel2}')
     ],[
         InlineKeyboardButton('🖥️ My owner Channel🖥️', url='https://youtube.com/channel/UCJzyCYfeRA0bXX87d25DMwQ')
     ]]
